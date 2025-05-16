@@ -16,9 +16,14 @@ func main() {
 	//data types
 	var userName string
 	var userTickets int
+	var email string
+	fmt.Println("Enter user name")
 	fmt.Scan(&userName)
+	fmt.Println("Enter user email")
+	fmt.Scan(&email)
+	fmt.Println("Enter user tickets")
+	fmt.Scan(&userTickets)
 
-	userTickets = 14
-	fmt.Printf("user %v booked %v tickets .\n", userName, userTickets)
+	fmt.Printf("Thank you  %v booked %v tickets .\n.Your confirmation will be recieved at %v email", userName, userTickets, email)
 
 }
