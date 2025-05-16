@@ -16,8 +16,8 @@ func main() {
 	//data types
 	var userName string
 	var userTickets int
+	fmt.Scan(&userName)
 
-	userName = "tom"
 	userTickets = 14
 	fmt.Printf("user %v booked %v tickets .\n", userName, userTickets)
 
